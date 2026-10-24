@@ -44,15 +44,15 @@ public class AdsSample : MonoBehaviour
 
         rewardedVideoAd = new LevelPlayRewardedAd(AdConfig.RewardedVideoAdUnitId);
     }
-    public void LoadBanderAds()
+    public void LoadBannerAds()
     {
         bannerAd.LoadAd();
     }
-    public void ShowBanderAds()
+    public void ShowBannerAds()
     {
         bannerAd.ShowAd();
     }
-    public void HideBanderAds()
+    public void HideBannerAds()
     {
         bannerAd.HideAd();
     }
